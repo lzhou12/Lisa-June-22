@@ -1,0 +1,27 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Import Proc
+```{r}
+library(tidyverse)
+library(haven)
+alcohol <- read_sas("http://www.principlesofeconometrics.com/sas/alcohol.sas7bdat", 
+    NULL)
+alcohol
+```
+
+Data wrangle
+
+```{r}
+
+library(ggplot2)
+
+ggplot(airline) +
+ aes(x = W, y = Y) +
+ geom_point(size = 1L, colour = "#0c4c8a") +
+ theme_minimal()
+
+```
+
